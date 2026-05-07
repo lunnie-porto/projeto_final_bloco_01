@@ -24,14 +24,8 @@ public class Software extends Produto {
 	public void visualizar() {
 		super.visualizar();
 		
-		System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_WHITE_BOLD + 
-				"  Versão do Software: v." + this.versao + "                          " + Cores.TEXT_RESET);
-		System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_CYAN + 
-				"***********************************************************" + Cores.TEXT_RESET);
+		System.out.println(Cores.TEXT_WHITE_BOLD + " Versão do Software: " + Cores.TEXT_RESET + "v." + this.versao);
+	    System.out.println(Cores.TEXT_CYAN + "--------------------------------------------------" + Cores.TEXT_RESET);
 	}
-
 	
-
-	
-	
-}
+	}

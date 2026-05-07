@@ -64,13 +64,13 @@ public abstract class Produto {
 			break;
         }
 
-        System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_CYAN + " -------------------------------------------------- " + Cores.TEXT_RESET);
-        System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_PURPLE + "  DETALHES DO ITEM NO INVENTÁRIO                   " + Cores.TEXT_RESET);
-        System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_CYAN + " -------------------------------------------------- " + Cores.TEXT_RESET);
-        System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_WHITE_BOLD + "  ID: " + this.id + "                                             " + Cores.TEXT_RESET);
-        System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_WHITE_BOLD + "  Nome: " + this.nome + "                                         " + Cores.TEXT_RESET);
-        System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_WHITE_BOLD + "  Tipo: " + tipo + "                                     " + Cores.TEXT_RESET);
-        System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_WHITE_BOLD + "  Preço: " + this.preco + " Créditos                         " + Cores.TEXT_RESET);
+		System.out.println("\n" + Cores.TEXT_CYAN + "--------------------------------------------------");
+	    System.out.println(Cores.TEXT_PURPLE_BOLD + " DETALHES DO ITEM NO INVENTÁRIO                   ");
+	    System.out.println(Cores.TEXT_CYAN + "--------------------------------------------------" + Cores.TEXT_RESET);
+	    System.out.println(Cores.TEXT_WHITE_BOLD + " ID: " + Cores.TEXT_RESET + this.id);
+	    System.out.println(Cores.TEXT_WHITE_BOLD + " Nome: " + Cores.TEXT_RESET + this.nome);
+	    System.out.println(Cores.TEXT_WHITE_BOLD + " Tipo: " + Cores.TEXT_RESET + tipo);
+	    System.out.println(Cores.TEXT_WHITE_BOLD + " Preço: " + Cores.TEXT_RESET + this.preco + " Créditos");
     }
 
      
