@@ -2,6 +2,8 @@ package projeto_final_bloco_01;
 
 import java.util.Scanner;
 
+import projeto_final_bloco_01.model.Cibernetico;
+import projeto_final_bloco_01.model.Software;
 import projeto_final_bloco_01.util.Cores;
 
 public class Menu {
@@ -12,6 +14,23 @@ public class Menu {
 		
 		int opcao;
 		
+//		// Teste da Classe (Filha) Cibernetico (ID, Nome, Tipo, Preço, Parte do Corpo)
+//		Cibernetico cib1 = new Cibernetico(1, "Lâminas Mantis", 1, 15000.0f, "Braços");
+//        cib1.visualizar();
+//        
+//     // Atualizando produto (Preço)
+//        cib1.setPreco(13500.0f);
+//        System.out.println("\n--- Aplicando Desconto no Cibernético ---");
+//        cib1.visualizar();
+//        
+//     // Teste da Classe (Filha) Software (ID, Nome, Tipo, Preço, Versão)
+//        Software soft1 = new Software(2, "Protocolo Breach", 2, 850.0f, 1);
+//        soft1.visualizar();
+//        
+//        // Atualizando a versao do Software
+//        soft1.setVersao(2);
+//        System.out.println("\n--- Atualizando Versão do Software ---");
+        
 		 while (true) {
 		    
 			 System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_CYAN + " > L-SONGBIRD TECH _                              " + Cores.TEXT_RESET);
