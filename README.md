@@ -33,24 +33,6 @@ O sistema suporta dois tipos de produtos:
 1. **Cibernético** 🤖 - Implantes físicos com slots de instalação
 2. **Software** 💾 - Programas com controle de versão
 
----
-
-## 🏗️ Arquitetura
-
-```
-src/projeto_final_bloco_01/
-├── model/
-│   ├── Produto (classe abstrata)
-│   ├── Cibernetico
-│   └── Software
-├── controller/
-│   └── ProdutoController
-├── repository/
-│   └── ProdutoRepository (interface)
-├── util/
-│   └── Cores (personalização visual)
-└── Menu (classe principal)
-```
 
 ---
 
@@ -60,20 +42,6 @@ src/projeto_final_bloco_01/
 - **POO** - Programação Orientada a Objetos
 - **Collections (ArrayList)** - Gerenciamento de dados
 - **ANSI Colors** - Interface colorida no terminal
-
----
-
-## 🎮 Como Usar
-
-### Compilar
-```bash
-javac -d bin src/projeto_final_bloco_01/**/*.java
-```
-
-### Executar
-```bash
-java -cp bin projeto_final_bloco_01.Menu
-```
 
 ---
 
